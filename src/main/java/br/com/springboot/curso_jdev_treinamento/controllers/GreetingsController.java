@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class GreetingsController {
+	
+		
     /**
      *
      * @param name the name to greet
