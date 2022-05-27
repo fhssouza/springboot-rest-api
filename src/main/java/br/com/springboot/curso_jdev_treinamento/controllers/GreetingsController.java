@@ -60,7 +60,7 @@ public class GreetingsController {
 		return new ResponseEntity<Usuario>(user, HttpStatus.CREATED);
 	}
 	
-	@DeleteMapping(value = "deletar")
+	@DeleteMapping(value = "delete")
 	@ResponseBody
 	public ResponseEntity<String> delete(@RequestParam Long id){
 		
